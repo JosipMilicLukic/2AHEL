@@ -3,7 +3,7 @@
 
 int main()
 {
-    const char secret = 'a';
+    const char secret[] = "JOSEE";
     char guess;
 
     printf("buchstaben raten: ");
@@ -13,13 +13,16 @@ int main()
         return 1;
     }
 
-    if (guess == secret)
+    int hits = 0;
+    for (int i = 0; i < (sizeof(secret) / sizeof(char)) -1; i++)
     {
-        printf("du hast richtig erraten: %c\n", secret);
-    } else
-    {
-        printf("du hast falsch erraten es ist nicht %c\n", guess);
+        if ((secret[i]) == guess){
+        hits++;
+
     }
+    }
+    
+    printf("hits: %d", hits);
     
     return 0;
 }
