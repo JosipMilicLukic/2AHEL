@@ -1,16 +1,25 @@
 #include <stdio.h>
 
+int countHits(const char secret[], const char guess){
+    int hits = 0;
+    for (int i = 0; i < (sizeof(secret) -1) ; i++)
+    {
+        if ((secret[i]) == guess){
+        hits++;
+
+    }
+    }
+    return hits;
+}
 
 int main()
 {
     const char secret[] = "JOSEE";
     const int len = sizeof(secret) - 1;
     char guessed[sizeof(secret) - 1];
-    char guess;
-    int hits = 0;
+    const char guess;
 
-    // Variable inizialisieren: __________
-    for (int i = 0; i < len; i++) {
+    for (int i = 0; i < len; i++){
         guessed[i] = '_';
     }
 
@@ -21,19 +30,16 @@ int main()
         return 1;
     }
 
-    for (int i = 0; i < len -1; i++)
+    /*int hits = 0;
+    for (int i = 0; i < (sizeof(secret) / sizeof(char)) -1; i++)
     {
-        if (guess == (secret[i])){
+        if ((secret[i]) == guess){
         hits++;
-        guessed[i] = guess;
+
     }
-    }
+    }*/
+   int hits = countHits(secret, guess);
     
-    for (int i = 0; i< len; i++) {
-        printf("%c", guessed[i]);
-    }
-
-
     printf("hits: %d", hits);
     
     return 0;
