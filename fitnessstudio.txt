@@ -1,0 +1,94 @@
+Kundenauftrag: Einfacher Trainingsplaner für ein Fitnessstudio
+1. Ausgangssituation
+Ich betreibe ein kleines Fitnessstudio und möchte meinen Mitgliedern helfen, ihre Trainingseinheiten besser zu planen. Viele meiner Kunden trainieren mehrmals pro Woche und verlieren manchmal den Überblick darüber, wie viele Übungen sie bereits absolviert haben.
+
+Deshalb benötige ich ein kleines Programm, das bei der Planung und Übersicht einer Trainingseinheit hilft.
+
+2. Dein Anliegen
+Ich möchte ein einfaches Trainingsplaner-Programm, mit dem man eine Trainingseinheit zusammenstellen und anschließend eine kurze Zusammenfassung erhalten kann.
+
+Das Programm soll vor allem für Menschen geeignet sein, die ihr Training unkompliziert organisieren möchten.
+
+3. Gewünschte Funktionen
+Das Programm soll folgende Möglichkeiten bieten:
+
+Eine Trainingseinheit starten.
+
+Bis zu fünf Übungen für das Training hinzufügen.
+
+Für jede Übung soll die Anzahl der geplanten Wiederholungen angegeben werden können.
+
+Nach jeder Eingabe soll angezeigt werden, wie viele Übungen bereits eingetragen wurden.
+
+Der Benutzer soll jederzeit sehen können, wie viele Wiederholungen insgesamt geplant sind.
+
+Am Ende soll eine Zusammenfassung des gesamten Trainings angezeigt werden.
+
+Falls keine einzige Übung eingetragen wurde, soll eine entsprechende Meldung erscheinen.
+
+4. Bedienung
+Beim Start soll der Benutzer gefragt werden, ob er eine neue Trainingseinheit erstellen möchte.
+
+Anschließend kann er nacheinander Übungen hinzufügen. Für jede Übung soll er Folgendes eingeben:
+
+Den Namen der Übung.
+
+Die geplante Anzahl an Wiederholungen.
+
+Nach jeder Übung soll gefragt werden, ob eine weitere Übung hinzugefügt werden soll.
+
+Sobald der Benutzer fertig ist oder fünf Übungen eingetragen hat, soll das Programm eine übersichtliche Zusammenfassung anzeigen.
+
+5. Beispiel
+Ein Kunde möchte sein Training für den heutigen Tag planen.
+
+Er gibt folgende Übungen ein:
+
+Übung
+
+Wiederholungen
+
+Liegestütze
+
+15
+
+Kniebeugen
+
+20
+
+Sit-ups
+
+25
+
+Das Programm soll anschließend beispielsweise Folgendes anzeigen:
+
+Deine Trainingseinheit
+
+Liegestütze: 15 Wiederholungen
+
+Kniebeugen: 20 Wiederholungen
+
+Sit-ups: 25 Wiederholungen
+
+Zusammenfassung
+
+Anzahl Übungen: 3
+
+Gesamtzahl Wiederholungen: 60
+
+Viel Erfolg beim Training!
+
+6. Besondere Wünsche
+Es sollen maximal fünf Übungen möglich sein.
+
+Die Anzahl der Wiederholungen muss mindestens 1 betragen.
+
+Der Benutzer soll nicht gezwungen sein, alle fünf Übungen einzutragen.
+
+Die Ausgabe soll übersichtlich und leicht verständlich sein.
+
+Das Programm soll auch bei einer ungültigen Eingabe eine verständliche Fehlermeldung anzeigen.
+
+Budget: Kleines Einstiegsprojekt ohne grafische Oberfläche.
+
+Erwartetes Ergebnis: Ein einfaches, zuverlässiges Trainingsplaner-Programm für den täglichen Gebrauch.
