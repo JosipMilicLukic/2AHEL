@@ -42,7 +42,10 @@ int check(char* wort1, char* wort2, char c) {
 char normalize(char c) {
     if (is_upper(c) && is_lower(c)) // !(is_upper(c) || is_lower(c)) de morgan
         return -1;
-    return c + ('a' - 'A');
+    if (is_upper(c))
+        return c + ('a' - 'A');
+    else
+        return c;
 }
 
 int is_upper(char c) {
